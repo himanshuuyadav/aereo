@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample Field Survey</name>
+    <Placemark>
+      <name>Agricultural Zone A</name>
+      <description>Wheat Cultivation Plot</description>
+      <ExtendedData>
+        <Data name="crop"><value>Wheat</value></Data>
+        <Data name="owner"><value>Farmer John</value></Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.5946,12.9716,0
+              77.5986,12.9716,0
+              77.5986,12.9756,0
+              77.5946,12.9756,0
+              77.5946,12.9716,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Canal Line 1</name>
+      <description>Irrigation Canal</description>
+      <ExtendedData>
+        <Data name="material"><value>Concrete</value></Data>
+      </ExtendedData>
+      <LineString>
+        <coordinates>
+          77.5940,12.9710,0
+          77.5960,12.9730,0
+          77.5990,12.9740,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Weather Station North</name>
+      <description>Automated Weather Station</description>
+      <Point>
+        <coordinates>77.5965,12.9735,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
